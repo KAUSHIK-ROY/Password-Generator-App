@@ -45,7 +45,7 @@
     align-items: center;
     font-size: 29px;
     font-weight: bold;
-    padding:1.5vmin 1vmin 4vmin;
+    padding:1.5vmin 0vmin 4vmin;
     text-decoration: underline;
     text-underline-offset: 1.5vmin;
   }
