@@ -59,19 +59,19 @@ export default function App() {
                     </div>
                     <div className="allInputs">
                         <label>Include uppercase letters</label>
-                        <input type="checkbox" checked={uppercase} onChange={()=>{setUppercase(!uppercase)}}/>
+                        <input type="checkbox" checked={uppercase} onChange={()=>{setUppercase(!uppercase)}} className='inp'/>
                     </div>
                     <div className="allInputs">
                         <label>Include lowercase letters</label>
-                        <input type="checkbox" checked={lowercase} onChange={()=>{setLowercase(!lowercase)}}/>
+                        <input type="checkbox" checked={lowercase} onChange={()=>{setLowercase(!lowercase)}} className='inp'/>
                     </div>
                     <div className="allInputs">
                         <label>Include numbers</label>
-                        <input type="checkbox" checked={number} onChange={()=>{setNumber(!number)}}/>
+                        <input type="checkbox" checked={number} onChange={()=>{setNumber(!number)}} className='inp'/>
                     </div>
                     <div className="allInputs">
                         <label>Include Symbols</label>
-                        <input type="checkbox" checked={symbol} onChange={()=>{setSymbol(!symbol)}}/>
+                        <input type="checkbox" checked={symbol} onChange={()=>{setSymbol(!symbol)}} className='inp'/>
                     </div>
 
 

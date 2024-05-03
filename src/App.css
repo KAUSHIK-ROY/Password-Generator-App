@@ -92,3 +92,7 @@
     width: 9vmin;
     padding-left: 7px;
   }
+
+  .inp{
+    cursor: pointer;
+  }
